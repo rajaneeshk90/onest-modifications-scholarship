@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beneficiary Form</title>
+</head>
+
+<body>
+        <form>
+            <div class="form-group">
+                <label for="beneficiaryName">Beneficiary Name:</label>
+                <input type="text" class="form-control" id="beneficiaryName" required>
+            </div>
+            <div class="form-group">
+                <label for="schoolName">Beneficiary School Name:</label>
+                <input type="text" class="form-control" id="schoolName" required>
+            </div>
+            <div class="form-group">
+                <label for="guardianName">Father/Mother/Guardian Name:</label>
+                <input type="text" class="form-control" id="guardianName" required>
+            </div>
+            <div class="form-group">
+                <label for="aadharDoc">Beneficiary ID (Aadhar Document Upload):</label>
+                <input type="file" class="form-control-file" id="aadharDoc" accept=".pdf, .jpg, .jpeg, .png" required>
+            </div>
+            <div class="form-group">
+                <label for="marksSheet">Beneficiary Marks Sheet (Document Upload):</label>
+                <input type="file" class="form-control-file" id="marksSheet" accept=".pdf, .jpg, .jpeg, .png" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+</body>
+
+</html>
